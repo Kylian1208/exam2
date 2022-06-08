@@ -1,0 +1,67 @@
+.navbar {
+    background: url(https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&w=1815&h=1815&fit=crop&crop=faces);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 130px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    width: 100px;
+    height: 170px;
+    float: left;
+    user-select: none;
+}
+
+.navbar img {
+    margin-left: 50px;
+    height: 80%;
+}
+
+.link-group {
+    display: flex;
+    float: right;
+    width: 80%;
+    height: 90%;
+    justify-content: end;
+    transition: 1s;
+}
+
+.nvabar ul {
+    position: relative;
+    right: 100px;
+    float: right;
+    list-style: none;
+}
+
+.navbar li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80%;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0px 10px;
+    margin-left: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar span {
+    display: none;
+}
+
+.mobile-btn {
+    display: none;
+}
